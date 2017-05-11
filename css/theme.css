@@ -1,0 +1,66 @@
+.green_button {
+	background-color: #4CAF50;
+	border: 1px solid transparent;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+
+body {
+	background-color: #355665;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	margin: auto;
+	width: 50%;
+}
+
+#inner_body {
+	background-color: #223E4A;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	border-radius: 6px;
+}
+
+#big_button {
+	font-size: 18px;
+	padding: 10px 15px;
+	margin-top: 15px;
+}
+
+.desc {
+	font-size: 1.5em;
+}
+
+.text_box {
+	margin-bottom: 15px;
+	border-radius: 4px;
+	border: none;
+	padding: 10px;
+	border-width: 3px;
+	font-size: inherit;
+	width: 100%;
+	color: #d0d0d0;
+}
+
+#pick_desc {
+	border-bottom: 1px solid #d0d0d0;
+	padding-bottom: 20px;
+}
+
+#impressum {
+	color: blue;
+}
+
+#or {
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
