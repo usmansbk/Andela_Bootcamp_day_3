@@ -4,12 +4,13 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/theme.css"
 	</head>
-	<body>
+	<body >
 		<h1 id="page_title">IMAGECOLORPICKER.COM</h1>
-		<p>... pick your color online</p>
+		<p id='pick_desc' class="desc">... pick your color online</p>
 		<div id="inner_body">
-		<h2>HTML Color Picker</h2>
-		<p>Click on the image to get the html codes.</p>
+		<div id="left">
+		<h3 class="desc">HTML Color Picker</h3>
+		<p id="content" class="desc">Click on the image to get the html codes.</p>
 			<p>Use the online image color picker right to select a and get the html Color Code of this pixel.<br>
 			Also you get the HEX value, RGB value and HSV value.<br>
 			You can put a picture url in the textbox below or upload your own image. (for example an screenshot of your desktop). Or use an website url, you will see a thumbnail on the right side.
@@ -28,12 +29,14 @@
 		</tr>
 		<tr>
 			<td>HSV:</td>
-			<td>191.28* 55.71% 82.35%</td>
+			<td>191.28&#2103; 55.71% 82.35%</td>
 		</tr>
 		</table>
+	</div>
+	<div id="right">
 		<img src="img/GetImage" alt="uploaded image"><br>
-		<button class="green_button" type="button">Upload your image</button>
-		<p>Or</p>
+		<button id="big_button" class="green_button" type="button">Upload your image</button>
+		<p id="or">Or</p>
 		<p>Use this box to get the HTML color code from a website. Without installing an Extansion.</p>
 		<input class="text_box" type="text" name="website_url" value="Url to website"><br>
 		<button class="green_button" type="button">Take image</button>
@@ -41,9 +44,10 @@
 		<input class="text_box" type="text" name="image_url" value="Url to image"><br>
 		<button class="green_button" type="button">Take image</button>
 	</div>
+	</div>
 		<footer>
 			<p>Copyright 2016-ImageColorPicker.com</p>
-			<p>Impressum</p>
+			<p id="impressum">Impressum</p>
 		</footer>
 	</body>
 </html>
